@@ -1,0 +1,69 @@
+.bg-biru {
+  background-color: #11aeef !important;
+}
+
+.hide {
+  display: none;
+}
+
+.isi-dashboard {
+  margin-top: 150px;
+}
+
+@media (max-width: 575px) {
+  .isi-dashboard {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 890px) {
+  .btn-side {
+    display: none;
+  }
+}
+
+@media (max-width: 890px) {
+  .btn-nav a {
+    display: none;
+  }
+}
+
+.container {
+  margin-top: 130px;
+}
+
+.label-telp {
+  flex: 1;
+  margin-right: 25%;
+}
+
+.divtelp {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .label-telp {
+    margin-right: 23%;
+  }
+}
+
+@media (max-width: 992px) {
+  .label-telp {
+    margin-right: 18%;
+  }
+}
+
+@media (max-width: 768px) {
+  .label-telp {
+    margin-right: 11%;
+  }
+}
+
+@media (max-width: 540px) {
+  .label-telp {
+    margin-right: 0%;
+  }
+  .divtelp {
+    width: 70%;
+  }
+}
